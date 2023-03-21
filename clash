@@ -37,25 +37,25 @@ experimental:
   interface-name: en0
 
 proxies:
-  - {name: GetAFreeNode.com-Dusseldorf, server: solitary-term-da0f.nologicsinner.workers.dev, port: 443, type: vmess, uuid: 48AF5D27-90F2-4001-A0AE-AC760762400D, sni: solitary-term-da0f.nologicsinner.workers.dev, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /speedtest/Dusseldorf.kotick.site, headers: {Host: solitary-term-da0f.nologicsinner.workers.dev}}}
-  - {name: GetAFreeNode.com-Social-Media, server: solitary-term-da0f.nologicsinner.workers.dev, port: 443, type: vmess, uuid: 48AF5D27-90F2-4001-A0AE-AC760762400D, sni: solitary-term-da0f.nologicsinner.workers.dev, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /speedtest/Tokyo.kotick.site, headers: {Host: solitary-term-da0f.nologicsinner.workers.dev}}}
-  - {name: GetAFreeNode.com-Kansas, server: solitary-term-da0f.nologicsinner.workers.dev, port: 443, type: vmess, uuid: 48AF5D27-90F2-4001-A0AE-AC760762400D, sni: solitary-term-da0f.nologicsinner.workers.dev, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /speedtest/Kansas.kotick.site, headers: {Host: solitary-term-da0f.nologicsinner.workers.dev}}}
-  - {name: GetAFreeNode.com-Lille, server: solitary-term-da0f.nologicsinner.workers.dev, port: 443, type: vmess, uuid: 48AF5D27-90F2-4001-A0AE-AC760762400D, sni: solitary-term-da0f.nologicsinner.workers.dev, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /speedtest/Lille.kotick.site, headers: {Host: solitary-term-da0f.nologicsinner.workers.dev}}}
-  - {name: Germany1, server: isegaro.ddns.net, port: 443, type: vmess, uuid: fb3f6944-7582-4741-aee6-743ee8c0cb44, sni: nologicsinner.nologicsinner.workers.dev, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /vmess, headers: {Host: nologicsinner.nologicsinner.workers.dev}}}
-  - {name: GetAFreeNode.com-Amsterdam, server: solitary-term-da0f.nologicsinner.workers.dev, port: 443, type: vmess, uuid: 48AF5D27-90F2-4001-A0AE-AC760762400D, sni: solitary-term-da0f.nologicsinner.workers.dev, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /speedtest/Amsterdam.kotick.site, headers: {Host: solitary-term-da0f.nologicsinner.workers.dev}}}
-  - {name: GetAFreeNode.com-Seattle, server: solitary-term-da0f.nologicsinner.workers.dev, port: 443, type: vmess, uuid: 48AF5D27-90F2-4001-A0AE-AC760762400D, sni: solitary-term-da0f.nologicsinner.workers.dev, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /speedtest/Seattle.kotick.site, headers: {Host: solitary-term-da0f.nologicsinner.workers.dev}}}
+  - {name: GetAFreeNode.com-Kansas, server: freenode.nologicsinner.workers.dev, port: 443, type: vmess, uuid: DDB05F7A-A4A3-4F34-B730-FCC7ACB3B17F, sni: freenode.nologicsinner.workers.dev, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /speedtest/Kansas.kotick.site, headers: {Host: freenode.nologicsinner.workers.dev}}}
+  - {name: GetAFreeNode.com-Dusseldorf, server: freenode.nologicsinner.workers.dev, port: 443, type: vmess, uuid: DDB05F7A-A4A3-4F34-B730-FCC7ACB3B17F, sni: freenode.nologicsinner.workers.dev, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /speedtest/Dusseldorf.kotick.site, headers: {Host: freenode.nologicsinner.workers.dev}}}
+  - {name: GetAFreeNode.com-Amsterdam, server: freenode.nologicsinner.workers.dev, port: 443, type: vmess, uuid: DDB05F7A-A4A3-4F34-B730-FCC7ACB3B17F, sni: freenode.nologicsinner.workers.dev, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /speedtest/Amsterdam.kotick.site, headers: {Host: freenode.nologicsinner.workers.dev}}}
+  - {name: GetAFreeNode.com-Social-Media, server: freenode.nologicsinner.workers.dev, port: 443, type: vmess, uuid: DDB05F7A-A4A3-4F34-B730-FCC7ACB3B17F, sni: freenode.nologicsinner.workers.dev, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /speedtest/Tokyo.kotick.site, headers: {Host: freenode.nologicsinner.workers.dev}}}
+  - {name: GetAFreeNode.com-Seattle, server: freenode.nologicsinner.workers.dev, port: 443, type: vmess, uuid: DDB05F7A-A4A3-4F34-B730-FCC7ACB3B17F, sni: freenode.nologicsinner.workers.dev, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /speedtest/Seattle.kotick.site, headers: {Host: freenode.nologicsinner.workers.dev}}}
+  - {name: GetAFreeNode.com-Lille, server: freenode.nologicsinner.workers.dev, port: 443, type: vmess, uuid: DDB05F7A-A4A3-4F34-B730-FCC7ACB3B17F, sni: freenode.nologicsinner.workers.dev, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /speedtest/Lille.kotick.site, headers: {Host: freenode.nologicsinner.workers.dev}}}
+  - {name: germany1, server: isegaro.ddns.net, port: 443, type: vmess, uuid: fb3f6944-7582-4741-aee6-743ee8c0cb44, sni: nologicsinner.nologicsinner.workers.dev, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /vmess, headers: {Host: nologicsinner.nologicsinner.workers.dev}}}
 
 proxy-groups:
   - name: sshkit-generator
     type: select
     proxies:
-      - GetAFreeNode.com-Dusseldorf
-      - GetAFreeNode.com-Social-Media
       - GetAFreeNode.com-Kansas
-      - GetAFreeNode.com-Lille
-      - Germany1
+      - GetAFreeNode.com-Dusseldorf
       - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Social-Media
       - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-Lille
+      - germany1
 
 rules:
  - MATCH,sshkit-generator
